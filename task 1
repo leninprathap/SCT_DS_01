@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+
+# Sample gender data
+genders = ['Male', 'Female', 'Other']
+counts = [55, 42, 3]
+
+# Bar Chart
+plt.bar(genders, counts, color='teal')
+plt.title("Gender Distribution in Population")
+plt.label("Gender")
+plt.ylabel("Number of People")
+plt.grid(axis='y', lifestyle='--', alpha=0.7)
+plt.show()
